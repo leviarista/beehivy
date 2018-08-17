@@ -1,0 +1,111 @@
+
+{
+    "id":1,
+    "alias":"dev_cel",
+    "name":{
+        "english":"Developers Cell",
+        "spanish":"Cell Desarrolladores"
+    },
+    "topics":[
+        {
+            "id":100001,
+            "name":{
+                "english":"Web Development",
+                "spanish":"Desarrollo Web"
+            },
+            "lists": [
+                { 
+                    "id":10000100001,
+                    "alias":"questions_and_forums",
+                    "name":{
+                        "english":"Questions and Forums",
+                        "spanish":"Foros y Preguntas"
+                    }, 
+                    "resources":[
+                        {
+                            "id":1000010000100001,
+                            "name":"StackOverflow",
+                            "web":"https://stackoverflow.com/",
+                            "image":"https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-icon.png",
+                            "description":{
+                                "english":"Stack Overflow is the largest, most trusted online community for developers to learn, share​ ​their programming ​knowledge, and build their careers.",
+                                "spanish":"Stack Overflow es la comunidad en línea más grande y confiable para que los desarrolladores aprendan, compartan sus conocimientos de programación y construyan sus carreras."
+                            }
+                        },
+                        {
+                            "id":1000010000100002,
+                            "name":"Quora",
+                            "web":"https://www.quora.com/",
+                            "image":"https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiJ6purzPTcAhUrq1kKHVhKDVIQjRx6BAgBEAU&url=https%3A%2F%2Fwww.quora.com%2F&psig=AOvVaw12RKPlYY7Ug4OyTCc0bDFI&ust=1534612806439819",
+                            "description":{
+                                "english":"Quora is a place to gain and share knowledge. It's a platform to ask questions and connect with people who contribute unique insights and quality answers.",
+                                "spanish":"Quora es Un lugar para compartir conocimiento y entender mejor el mundo."
+                            }
+                        }
+                    ] 
+                },
+                { 
+                    "id":10000100002,
+                    "alias":"code-_snippets_editors",
+                    "name":{
+                        "english":"Code Snippets Editors",
+                        "spanish":"Editores de Fragmentos de Código"
+                    }, 
+                    "resources":[
+                        {
+                            "id":1000010000200001,
+                            "name":"JsFiffle",
+                            "web":"https://jsfiddle.net/",
+                            "image":"https://en.wikipedia.org/wiki/JSFiddle#/media/File:Jsfiddle-logo.png",
+                            "description":{
+                                "english":"Test your JavaScript, CSS, HTML or CoffeeScript online with JSFiddle code editor.",
+                                "spanish":"Prueba tu código JavaScript, CSS, HTML o CoffeeScript con el editor de código en línea JSFiddle."
+                            }
+                        },
+                        {
+                            "id":1000010000200002,
+                            "name":"CodePen",
+                            "web":"https://codepen.io/",
+                            "image":"https://i0.wp.com/blog.codepen.io/wp-content/uploads/2012/06/Button-Fill-Black-Small.png?resize=125%2C125",
+                            "description":{
+                                "english":"CodePen is a social development environment for front-end designers and developers.👋 It’s the best place to build and deploy a website, show off your work, build test cases, and find inspiration.",
+                                "spanish":"CodePen es un entorno de desarrollo social para diseñadores y desarrolladores de front-end.👋 Es el mejor lugar para construir e implementar un sitio web, mostrar su trabajo, crear casos de prueba y encontrar inspiración."
+                            }
+                        },
+                        {
+                            "id":1000010000200003,
+                            "name":"Pastebin",
+                            "web":"https://pastebin.com/",
+                            "image":"https://en.wikipedia.org/wiki/Pastebin.com#/media/File:Pastebin.com_logo.png",
+                            "description":{
+                                "english":"Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time.",
+                                "spanish":"Pastebin.com es la herramienta de pegado número uno desde 2002. Pastebin es un sitio web donde puede almacenar texto en línea durante un período de tiempo determinado."
+                            }
+                        },
+                        {
+                            "id":1000010000200004,
+                            "name":"Github Gist",
+                            "web":"https://gist.github.com/",
+                            "image":"https://a248.e.akamai.net/assets.github.com/images/modules/header/logo_gist.png?1315867479",
+                            "description":{
+                                "english":"With gists, you can share single files, parts of files, and full applications with other people.",
+                                "spanish":"Con gists, puedes compartir archivos individuales, partes de archivos y aplicaciones completas con otras personas."
+                            }
+                        },
+                        {
+                            "id":100001000020000,
+                            "name":"Gitlab Snippets",
+                            "web":"https://docs.gitlab.com/ee/user/snippets.html",
+                            "image":"https://upload.wikimedia.org/wikipedia/commons/1/18/GitLab_Logo.svg",
+                            "description":{
+                                "english":"With GitLab Snippets you can store and share bits of code and text with other users.",
+                                "spanish":"Con GitLab Snippets puede almacenar y compartir bits de código y texto con otros usuarios."
+                            }
+                        }
+                    ] 
+                }
+            ]
+        }
+    ]
+    
+ } 
