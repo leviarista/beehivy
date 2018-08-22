@@ -1,0 +1,13 @@
+> behivy
+    > cell
+        > list
+            > resource
+            > resource
+            > resource
+        > list
+            > resource
+            > resource
+            > resource
+    > cell
+        > list
+            > resource

@@ -1,0 +1,44 @@
+{
+    "cells":[
+        {
+            "id":1,
+            "alias":"dev_cell",
+            "name":{
+                "english":"Developers",
+                "spanish":"Desarrolladores"
+            }
+        },
+        {
+            "id":2,
+            "alias":"design_cell",
+            "name":{
+                "english":"Designers",
+                "spanish":"Diseñadores"
+            }
+        },
+        {
+            "id":3,
+            "alias":"architecture_cell",
+            "name":{
+                "english":"Architects",
+                "spanish":"Arquitectos"
+            }
+        },
+        {
+            "id":4,
+            "alias":"civil_eng_cell",
+            "name":{
+                "english":"Civil Engineers",
+                "spanish":"Ingenieros Civiles"
+            }
+        },
+        {
+            "id":5,
+            "alias":"mine_eng_cell",
+            "name":{
+                "english":"Miming Engineers",
+                "spanish":"Ingenieros de Minas"
+            }
+        }
+    ]
+}

@@ -5,6 +5,9 @@
     <title>Beehivy</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="images/beehivy.ico" sizes="16x16 32x32 64x64 128x128" type="image/png">
+
     <!-- UIkit CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.10/css/uikit.min.css" />
 
@@ -12,24 +15,33 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.10/js/uikit.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.10/js/uikit-icons.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+            
 </head>
 
 <body>
 
-    <div class="uk-position-relative uk-light">
+    <div class="uk-position-relative">
+
         <img src="images/background.jpg" alt="">
+
         <div class="uk-position-top">
-            <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+
+            <nav class="uk-navbar-container uk-navbar-transparent uk-light" uk-navbar>
 
                 <div class="uk-navbar-left">
                     <ul class="uk-navbar-nav">
                         <li class="uk-active">
                             <a href="#">
-                                <img data-src="images/beehive.png" width="50" height="" alt="" uk-img>
+                                <img data-src="images/beehivy.png" width="50" height="" alt="" uk-img>
                             </a>
                         </li>
                         <li>
-                            <a href="#">Beehivy
+                            <a href="#" style="color: white">Beehivy
                                 <span style="margin-top: 25px; margin-left: -25px">
                                     <sub>
                                         <small> Developers</small>
@@ -107,7 +119,49 @@
                 </div>
 
             </nav>
+
+            <div class="uk-section">
+                <div class="uk-container">
+                    <div class="uk-card uk-light">
+                        <div class="uk-card-body" style="text-align: center">
+                            <h1>
+                                <small style="font-size: 0.4em">WELCOME TO</small><br>
+                                <b style="font-size: 1.2em">Beehivy</b>
+                            </h1>
+                            <p>Discover collections of great resources for developers, designers and every lover of the digital world. 🐝</p>
+                        </div>
+                    </div>
+                    <div class="uk-child-width-1-4@s uk-grid-match uk-flex-center uk-grid-small" uk-grid>
+                        <div>
+                            <div class="uk-card uk-card-hover uk-card-body uk-light">
+                                <h3 class="uk-card-title">Hover</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                                <h3 class="uk-card-title">Default</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card uk-card-primary uk-card-hover uk-card-body uk-light" style="background-color: #ffc400">
+                                <h3 class="uk-card-title">Primary</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card uk-card-secondary uk-card-hover uk-card-body uk-light">
+                                <h3 class="uk-card-title">Secondary</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
+
     </div>
 
 </body>
