@@ -14,11 +14,17 @@
     <!-- UIkit JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.10/js/uikit.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.10/js/uikit-icons.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
+
+    <!-- Vue.js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <style>
+       
+    </style>
 
 </head>
 
@@ -132,9 +138,9 @@
             </div>
         </div>
 
-        <div class="uk-section uk-section-xsmall">
+        <div class="uk-section uk-section-expand" hidden>
             <div class="uk-container">
-                <div class="uk-child-width-1-4@s uk-grid-match uk-flex-center uk-grid-small" uk-grid>
+                <div class="uk-child-width-1-5@s uk-grid-match uk-flex-center uk-grid-small" uk-grid>
                     <div>
                         <div class="uk-card uk-card-body uk-light">
                             <h3 class="uk-card-title">Hover</h3>
@@ -163,6 +169,19 @@
             </div>
         </div>
 
+        <div class="uk-section uk-section-expand">
+            <div class="uk-container">
+                <div id="cell-collection" class="uk-child-width-1-5@s uk-grid-match uk-flex-center uk-grid-small" uk-grid>
+                    <div v-for="cell in cells">
+                        <div class="uk-card uk-card-hover uk-card-body" :style="{'background-color': cell.color}" :class="{'uk-light':cell.light}">
+                            <h3 class="uk-card-title">{{ cell.name }}</h3>
+                            <p>Lorem ipsum </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
         <div class="uk-position-relative">
 
@@ -184,9 +203,22 @@
             </div>
         </div>
 
-
-
     </div>
+
+    <script>
+        var app = new Vue({
+            el: '#cell-collection',
+            data: {
+                cells: [
+                    { name: 'Developers', color: '#ffffff', light: false },
+                    { name: 'Designers', color: '#ffc400', light: true },
+                    { name: 'Architects', color: '#000000', light: true },
+                    { name: 'Civil Engineers', color: '#ffffff', light: false },
+                    { name: 'Mining Engineers', color: '#ffc400', light: true }
+                ]
+            }
+        })
+    </script>
 
 </body>
 
