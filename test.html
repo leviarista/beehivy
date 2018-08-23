@@ -17,150 +17,174 @@
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-            crossorigin="anonymous"></script>
-            
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
 </head>
 
 <body>
 
-    <div class="uk-position-relative">
+    <div style="background-image: linear-gradient(to right, #00a5af , #00b9c3, #00afb9)">
 
-        <img src="images/background.jpg" alt="">
 
-        <div class="uk-position-top">
+        <nav class="uk-navbar-container uk-navbar-transparent uk-light" uk-navbar>
 
-            <nav class="uk-navbar-container uk-navbar-transparent uk-light" uk-navbar>
+            <div class="uk-navbar-left">
+                <ul class="uk-navbar-nav">
+                    <li class="uk-active">
+                        <a href="#">
+                            <img data-src="images/beehivy.png" width="50" height="" alt="" uk-img>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" style="color: white">Beehivy
+                            <span style="margin-top: 25px; margin-left: -25px">
+                                <sub>
+                                    <small> Developers</small>
+                                </sub>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Topics</a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li class="uk-active">
+                                    <a href="#">Active</a>
+                                </li>
+                                <li>
+                                    <a href="#">Item</a>
+                                </li>
+                                <li class="uk-nav-header">Header</li>
+                                <li>
+                                    <a href="#">Item</a>
+                                </li>
+                                <li>
+                                    <a href="#">Item</a>
+                                </li>
+                                <li class="uk-nav-divider"></li>
+                                <li>
+                                    <a href="#">Item</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Lists</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
 
-                <div class="uk-navbar-left">
-                    <ul class="uk-navbar-nav">
-                        <li class="uk-active">
-                            <a href="#">
-                                <img data-src="images/beehivy.png" width="50" height="" alt="" uk-img>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" style="color: white">Beehivy
-                                <span style="margin-top: 25px; margin-left: -25px">
-                                    <sub>
-                                        <small> Developers</small>
-                                    </sub>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">About</a>
-                        </li>
-                        <li>
-                            <a href="#">Topics</a>
-                            <div class="uk-navbar-dropdown">
-                                <ul class="uk-nav uk-navbar-dropdown-nav">
-                                    <li class="uk-active">
-                                        <a href="#">Active</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Item</a>
-                                    </li>
-                                    <li class="uk-nav-header">Header</li>
-                                    <li>
-                                        <a href="#">Item</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Item</a>
-                                    </li>
-                                    <li class="uk-nav-divider"></li>
-                                    <li>
-                                        <a href="#">Item</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="#">Lists</a>
-                        </li>
-                        <li>
-                            <a href="#">Blog</a>
-                        </li>
-                        <li>
-                            <a href="#">Contact</a>
-                        </li>
-                    </ul>
+            <div class="uk-navbar-right">
+
+                <ul class="uk-navbar-nav">
+                    <li>
+                        <a href="#">Idioma</a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li class="uk-active">
+                                    <a href="#">English</a>
+                                </li>
+                                <li>
+                                    <a href="#">Español</a>
+                                </li>
+                                <li class="uk-nav-header">Header</li>
+                                <li>
+                                    <a href="#">Item</a>
+                                </li>
+                                <li>
+                                    <a href="#">Item</a>
+                                </li>
+                                <li class="uk-nav-divider"></li>
+                                <li>
+                                    <a href="#">Item</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+
+        <div class="uk-section uk-section-xsmall">
+            <div class="uk-container">
+                <div class="uk-card uk-card-small uk-light">
+                    <div style="text-align: center">
+                        <h1>
+                            <small style="font-size: 0.4em">WELCOME TO</small>
+                            <br>
+                            <b style="font-size: 1.2em">Beehivy</b>
+                        </h1>
+                        <p>Discover collections of great resources for developers, designers and every lover of the digital
+                            world. 🐝</p>
+                    </div>
                 </div>
+            </div>
+        </div>
 
-                <div class="uk-navbar-right">
-
-                    <ul class="uk-navbar-nav">
-                        <li>
-                            <a href="#">Idioma</a>
-                            <div class="uk-navbar-dropdown">
-                                <ul class="uk-nav uk-navbar-dropdown-nav">
-                                    <li class="uk-active">
-                                        <a href="#">English</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Español</a>
-                                    </li>
-                                    <li class="uk-nav-header">Header</li>
-                                    <li>
-                                        <a href="#">Item</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Item</a>
-                                    </li>
-                                    <li class="uk-nav-divider"></li>
-                                    <li>
-                                        <a href="#">Item</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-
-            </nav>
-
-            <div class="uk-section">
-                <div class="uk-container">
-                    <div class="uk-card uk-light">
-                        <div class="uk-card-body" style="text-align: center">
-                            <h1>
-                                <small style="font-size: 0.4em">WELCOME TO</small><br>
-                                <b style="font-size: 1.2em">Beehivy</b>
-                            </h1>
-                            <p>Discover collections of great resources for developers, designers and every lover of the digital world. 🐝</p>
+        <div class="uk-section uk-section-xsmall">
+            <div class="uk-container">
+                <div class="uk-child-width-1-4@s uk-grid-match uk-flex-center uk-grid-small" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-body uk-light">
+                            <h3 class="uk-card-title">Hover</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
                     </div>
-                    <div class="uk-child-width-1-4@s uk-grid-match uk-flex-center uk-grid-small" uk-grid>
-                        <div>
-                            <div class="uk-card uk-card-hover uk-card-body uk-light">
-                                <h3 class="uk-card-title">Hover</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                            <h3 class="uk-card-title">Default</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
-                        <div>
-                            <div class="uk-card uk-card-default uk-card-hover uk-card-body">
-                                <h3 class="uk-card-title">Default</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-primary uk-card-hover uk-card-body uk-light" style="background-color: #ffc400">
+                            <h3 class="uk-card-title">Primary</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
-                        <div>
-                            <div class="uk-card uk-card-primary uk-card-hover uk-card-body uk-light" style="background-color: #ffc400">
-                                <h3 class="uk-card-title">Primary</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="uk-card uk-card-secondary uk-card-hover uk-card-body uk-light">
-                                <h3 class="uk-card-title">Secondary</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-secondary uk-card-hover uk-card-body uk-light">
+                            <h3 class="uk-card-title">Secondary</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
+
+
+        <div class="uk-position-relative">
+
+            <img src="images/background.jpg" alt="">
+
+            <div class="uk-position-top" hidden>
+                <div class="uk-section">
+                    <div class="uk-container">
+
+                        <div class="uk-card uk-card-default uk-card-hover">
+                            <div class="uk-padding">
+                                <div style="clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); background-color: #ffc400; width: 150px; height: 170px">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
 
     </div>
 
