@@ -23,7 +23,6 @@
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
     <style>
-       
     </style>
 
 </head>
@@ -174,8 +173,8 @@
                 <div id="cell-collection" class="uk-child-width-1-5@s uk-grid-match uk-flex-center uk-grid-small" uk-grid>
                     <div v-for="cell in cells">
                         <div class="uk-card uk-card-hover uk-card-body" :style="{'background-color': cell.color}" :class="{'uk-light':cell.light}">
-                            <h3 class="uk-card-title">{{ cell.name }}</h3>
-                            <p>Lorem ipsum </p>
+                            <h3 class="uk-card-title">{{ cell.name.english }}</h3>
+                            <p>Resources for {{ cell.name.english }}</p>
                         </div>
                     </div>
                 </div>
@@ -210,12 +209,23 @@
             el: '#cell-collection',
             data: {
                 cells: [
-                    { name: 'Developers', color: '#ffffff', light: false },
-                    { name: 'Designers', color: '#ffc400', light: true },
-                    { name: 'Architects', color: '#000000', light: true },
-                    { name: 'Civil Engineers', color: '#ffffff', light: false },
-                    { name: 'Mining Engineers', color: '#ffc400', light: true }
                 ]
+            },
+
+            created: function () {
+                this.fetchData();
+            },
+
+            methods: {
+                fetchData: function () {
+                    var self = this;
+                    $.getJSON('./data/cells.json', function (data) {
+                        $.each(data.cells, function (key, val) {
+                            self.cells.push(val);
+                        });
+                    });
+                }
+
             }
         })
     </script>

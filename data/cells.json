@@ -6,7 +6,9 @@
             "name":{
                 "english":"Developers",
                 "spanish":"Desarrolladores"
-            }
+            },
+            "color": "#ffffff", 
+            "light": false
         },
         {
             "id":2,
@@ -14,7 +16,9 @@
             "name":{
                 "english":"Designers",
                 "spanish":"Diseñadores"
-            }
+            },
+            "color": "#ffc400", 
+            "light": true
         },
         {
             "id":3,
@@ -22,7 +26,9 @@
             "name":{
                 "english":"Architects",
                 "spanish":"Arquitectos"
-            }
+            },
+            "color": "#000000", 
+            "light": true
         },
         {
             "id":4,
@@ -30,7 +36,9 @@
             "name":{
                 "english":"Civil Engineers",
                 "spanish":"Ingenieros Civiles"
-            }
+            },
+            "color": "#ffffff", 
+            "light": false
         },
         {
             "id":5,
@@ -38,7 +46,9 @@
             "name":{
                 "english":"Mining Engineers",
                 "spanish":"Ingenieros de Minas"
-            }
+            },
+            "color": "#ffc400", 
+            "light": true
         }
     ]
 }
